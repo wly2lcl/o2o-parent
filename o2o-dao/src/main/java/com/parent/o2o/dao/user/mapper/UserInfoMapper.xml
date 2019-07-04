@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.parent.o2o.dao.user.UserInfoMapper">
+
+<insert id="saveUserInfo" parameterType="com.parent.o2o.model.user.UserInfo" >
+	 insert into user_info  
+		  (user_code,user_name,user_pwd,create_time)
+		values 
+		  (#{userCode},#{userName},#{userPwd},#{createTime})
+</insert>
+
+</mapper>
+
