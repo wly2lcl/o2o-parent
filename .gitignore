@@ -1,0 +1,35 @@
+# Java class files
+*.class
+
+# IntelliJ IDEA Project files
+.idea
+*.iml
+*.ipr
+*.iws
+ 
+# Eclipse Project files
+.classpath
+.project
+.settings/
+
+# maven ignore
+target/
+*.war
+*.zip
+*.tar
+
+# testng
+test-output/
+
+# temp ignore
+logs/
+*.doc
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
