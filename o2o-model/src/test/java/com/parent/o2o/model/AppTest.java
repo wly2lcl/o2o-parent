@@ -1,4 +1,4 @@
-package com.wangluyao.o2o.model;
+package com.parent.o2o.model;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

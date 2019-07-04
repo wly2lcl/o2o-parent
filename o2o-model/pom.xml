@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.wangluyao.o2o</groupId>
+    <groupId>com.parent.o2o</groupId>
     <artifactId>o2o-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.wangluyao.o2o</groupId>
+  <groupId>com.parent.o2o</groupId>
   <artifactId>o2o-model</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>o2o-model</name>
   <url>http://maven.apache.org</url>
   <properties>

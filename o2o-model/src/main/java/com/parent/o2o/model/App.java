@@ -1,4 +1,4 @@
-package com.wangluyao.o2o.model;
+package com.parent.o2o.model;
 
 /**
  * Hello world!
