@@ -1,0 +1,20 @@
+logging:
+    config: classpath:logback/logback.xml
+    
+server:
+    tomcat:
+        max-threads: 800
+        
+redis:
+    host:
+        cluster: 192.168.14.233:6379,192.168.14.232:6379,192.168.14.231:6379
+    timeout: 300
+    password: password
+    maxRedirects: 5
+    config:
+        maxIdle: 50
+        minIdle: 1
+        maxWaitMillis: 1000
+        maxTotal: 1024
+        testOnBorrow: true
+        testOnReturn: true
