@@ -85,10 +85,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>2.1.2.RELEASE</version>
 				<configuration>
-					<finalName>app</finalName>
-					<executable>true</executable>
-					<outputDirectory>${project.build.directory}/build/msr</outputDirectory>
-				</configuration>
+                    <mainClass>com.parent.o2o.Bootstrap</mainClass>
+                </configuration>
 				<executions>
 					<execution>
 						<goals>
