@@ -8,20 +8,13 @@
  **********************************************************/
 package com.parent.o2o.dwh.web;
 
-import javax.annotation.Resource;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.parent.o2o.redis.IRedisClient;
 
 @RestController
 public class IndexController {
 
 	private static String proName = "o2o-web";
-	
-	@Resource
-	private IRedisClient redisClient;
 	
 	public static String getProName() {
 		return proName;

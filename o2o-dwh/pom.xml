@@ -63,12 +63,6 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 		</dependency>
-		
-		<!-- o2o-redis-starter -->
-		<dependency>
-			<groupId>com.parent.o2o</groupId>
-			<artifactId>o2o-redis-starter</artifactId>
-		</dependency>
 	</dependencies>	
 	
 	<build>
